@@ -1,0 +1,4 @@
+sudo apt install pigpio python3-pip gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libcamera-apps
+sudo systemctl enable pigpiod
+sudo systemctl start pigpiod
+python3 pi_drone_receiver.py
